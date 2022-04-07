@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-.nav {
+#nav {
     margin-top: 32px;
 }
 
@@ -58,4 +58,76 @@ nav {
     background-color: #6415FF;
     color: white;
     padding: .75rem 2rem;
+    font-weight: 700;
+}
+
+/* LANDING */
+
+#landing {
+    margin: 6rem 0;
+}
+
+.landingFlex {
+    display: flex;
+}
+
+.landingSignUp {
+    width: 40%;
+}
+
+.landingHeading {
+    font-size: 3rem;
+}
+
+.purple {
+    color: #6415FF;
+}
+
+.landingPara {
+    margin: 2rem 0;
+    font-size: 1.125rem;
+}
+
+.landingForm {
+    position: relative;
+    max-width: 28rem;
+}
+
+.landingInput {
+    padding: 1.25rem 12rem 1.25rem 2rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    border: 2px solid #e5e7eb;
+    width: 100%;
+}
+
+.landingButton {
+    position: absolute;
+    margin: .5rem 0;
+    width: 10rem;
+    line-height: 1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-right: .5rem;
+    border: none;
+}
+
+.landingCompaniesTitle {
+    margin-top: 5rem;
+    font-size: .75rem;
+    font-weight: 700;
+    color: #A0AEC0;
+}
+
+.landingCompanies {
+    width: 100%;
+}
+
+.landingImgWrapper {
+    width: 60%;
+}
+
+.landingImg {
+    width: 100%;
 }
